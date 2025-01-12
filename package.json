@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --force",
     "build": "concurrently \"pnpm:type-check\" \"pnpm:build-only\"",
     "preview": "vite preview",
     "story:dev": "histoire dev --port=7777",

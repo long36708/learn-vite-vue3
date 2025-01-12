@@ -1,8 +1,7 @@
-import { HstVue } from '@histoire/plugin-vue'
-/**
+import { HstVue } from '@histoire/plugin-vue' /**
  * @Author: longmo
  * @Date: 2025-01-12 17:05:29
- * @LastEditTime: 2025-01-12 17:06:24
+ * @LastEditTime: 2025-01-12 18:32:20
  * @FilePath: histoire.config.ts
  * @Description:
  */

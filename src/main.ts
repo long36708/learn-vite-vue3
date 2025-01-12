@@ -1,12 +1,13 @@
 import { createApp } from 'vue'
-import App from './App.vue'
 import { setupModules } from './modules'
-
 import { setupElementPlus } from './plugins'
 
 import { setupRouter } from './router'
+
 import { setupStore } from './store'
-import '@unocss/reset/tailwind.css'
+// import App from './App.vue'
+import App from './views/BigDataDemo/demo5.vue'
+// import '@unocss/reset/tailwind.css'
 import './style/index.less'
 import 'uno.css'
 

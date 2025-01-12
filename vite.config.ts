@@ -5,6 +5,7 @@ import { loadEnv, type ConfigEnv, type UserConfigExport } from 'vite'
 import { parseEnv } from './build/parseEnv'
 import { definePlugins, src } from './build/plugins'
 import { version } from './package.json'
+
 /**
  * @link https://vitejs.dev/config/
  */
