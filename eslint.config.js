@@ -5,6 +5,7 @@ export default sxzz(
     {
       plugins: {},
       rules: {
+        'unicorn/filename-case': 'off',
         'no-restricted-syntax': [
           'error',
 

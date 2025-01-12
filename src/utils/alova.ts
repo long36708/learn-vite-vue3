@@ -79,6 +79,7 @@ class Request {
   public get<Data>(url: string, params: Arg, config: GetConfigType<Data>) {
     return alovaInstance.Get<Data>(url, { params, ...config })
   }
+
   public post<Data>(url: string, data: RequestBody, config: GetConfigType<Data>) {
     return alovaInstance.Post<Data>(url, data, { ...config })
   }
@@ -86,15 +87,19 @@ class Request {
   public put<Data>(url: string, data: RequestBody, config: GetConfigType<Data>) {
     return alovaInstance.Put<Data>(url, data, { ...config })
   }
+
   public delete<Data>(url: string, data: RequestBody, config: GetConfigType<Data>) {
     return alovaInstance.Delete<Data>(url, data, { ...config })
   }
+
   public patch<Data>(url: string, data: RequestBody, config: GetConfigType<Data>) {
     return alovaInstance.Patch<Data>(url, data, { ...config })
   }
+
   public head<Data>(url: string, config: GetConfigType<Data>) {
     return alovaInstance.Head<Data>(url, { ...config })
   }
+
   public options<Data>(url: string, config: GetConfigType<Data>) {
     return alovaInstance.Options<Data>(url, { ...config })
   }

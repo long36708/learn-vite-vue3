@@ -90,6 +90,7 @@ export function definePlugins() {
 
     /**
      * svg组件自动导入
+     * @link https://github.com/jevon617/unplugin-svg-component
      */
     UnpluginSvgComponent({
       // 指定需要缓存的图标文件夹
