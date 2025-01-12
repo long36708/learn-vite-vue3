@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { useAssetsImageURL } from '@/composables/url-composable'
+
 /**
  * 接收assets/images中的名称
  */

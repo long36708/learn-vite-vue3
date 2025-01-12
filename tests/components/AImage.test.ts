@@ -7,5 +7,7 @@ describe('AImage', () => {
   it('renders properly', () => {
     const wrapper = mount(AImage, { props: { name: 'logo', extension: '.svg' } })
     expect(wrapper.attributes('src')).toContain('logo.svg')
+
+    console.log(wrapper.attributes('src'))
   })
 })

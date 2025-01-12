@@ -32,3 +32,14 @@ const attrs = computed(() => ({
   </component>
   <span v-else class="custom-label">{{ item?.label }}</span>
 </template>
+
+<style scoped>
+.custom-label {
+  display: inline-block;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+</style>

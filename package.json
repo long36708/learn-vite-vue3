@@ -90,7 +90,7 @@
     "vite": "^5.4.5",
     "vite-plugin-vue-meta-layouts": "^0.4.3",
     "vite-tsconfig-paths": "^5.0.1",
-    "vitest": "^2.1.1",
+    "vitest": "^2.1.8",
     "volar-plugin-vue-router": "^0.2.0",
     "vue-tsc": "^2.1.6"
   },
