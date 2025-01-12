@@ -3,3 +3,4 @@
 /// <reference types="unplugin-vue-macros/macros-global" />
 /// <reference types="unplugin-vue-router/client" />
 /// <reference types="unplugin-info/client" />
+/// <reference types="@histoire/plugin-vue/components" />
